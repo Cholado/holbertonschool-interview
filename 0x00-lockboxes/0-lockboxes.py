@@ -1,4 +1,3 @@
-  
 #!/usr/bin/python3
 """
 Module - lockboxes
@@ -8,7 +7,7 @@ Module - lockboxes
 def canUnlockAll(boxes):
     """
      Function - canUnlockAll
-     check if the box is unlocked or not 
+     check if the box is unlocked or not
      return true if is unlocked or false if not
     """
     stack = [0]
