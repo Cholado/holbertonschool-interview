@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cholado/holberton/holbertonschool-interview/mock/0-lowest_index_k_mult_table/0-lowest_index_k_mult_table.csproj": {}
+  },
+  "projects": {
+    "/home/cholado/holberton/holbertonschool-interview/mock/0-lowest_index_k_mult_table/0-lowest_index_k_mult_table.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cholado/holberton/holbertonschool-interview/mock/0-lowest_index_k_mult_table/0-lowest_index_k_mult_table.csproj",
+        "projectName": "0-lowest_index_k_mult_table",
+        "projectPath": "/home/cholado/holberton/holbertonschool-interview/mock/0-lowest_index_k_mult_table/0-lowest_index_k_mult_table.csproj",
+        "packagesPath": "/home/cholado/.nuget/packages/",
+        "outputPath": "/home/cholado/holberton/holbertonschool-interview/mock/0-lowest_index_k_mult_table/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/cholado/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
