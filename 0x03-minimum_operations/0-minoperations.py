@@ -9,7 +9,7 @@ def minOperations(n):
     """
     Function - minOperations
     get fewest number of operations to reach "n" printings
-    by finding prime factors and return their sum
+    by finding the prime factors and return their sum
     """
     res = 0
 
