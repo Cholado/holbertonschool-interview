@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import math
 """
 Module - Minimum Operations
 """
+
+
+import math
 
 
 def minOperations(n):
