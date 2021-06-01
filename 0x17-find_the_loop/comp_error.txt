@@ -1,0 +1,7 @@
+gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-find_loop.c -L. -lloop -o main
+
+/usr/bin/ld: ./libloop.a(free_listint_safe.o): relocation R_X86_64_32 against `.rodata' can not be used when making a PIE object; recompile with -fPIE
+/usr/bin/ld: ./libloop.a(print_listint_safe.o): relocation R_X86_64_32 against `.rodata' can not be used when making a PIE object; recompile with -fPIE
+/usr/bin/ld: ./libloop.a(add_nodeint.o): relocation R_X86_64_PC32 against symbol `malloc@@GLIBC_2.2.5' can not be used when making a PIE object; recompile with -fPIE
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
