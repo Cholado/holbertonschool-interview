@@ -10,18 +10,16 @@ def validUTF8(data):
     return: True if data is a valid UTF-8 encoding, else return False
     """
     count = 0
-    for c in data:
-        if count == 0:
-            if (c >> 5) == 0b110:
-                count = 1
-            elif (c >> 4) == 0b1110:
-                count = 2
-            elif (c >> 3) == 0b11110:
-                count = 3
-            elif (c >> 7):
-                return False
-        else:
-            if (c >> 6) != 0b10:
+    for i, n in enumerate(data):
+        byte = n & 0xFF
+        if count:
+            if byte >> 6 != 2:
                 return False
             count -= 1
+            continue
+        while (1 << abs(7 - count)) & byte:
+            count += 1
+        if count == 1 or count > 4:
+            return False
+        count = max(count - 1, 0)
     return count == 0
